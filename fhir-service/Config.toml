@@ -8,7 +8,7 @@ sampleDataGithubUrl = "http://localhost:9091/data"
 baseUrl = "http://localhost:9090/fhir/r4"
 
 [ballerina.http]
-defaultListenerPort = 8080
+defaultListenerPort = 8082
 
 ## Following configurations are used to build the capability statement and smart configuration.
 [configs]

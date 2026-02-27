@@ -65,7 +65,8 @@ public enum ResourceType {
     QUESTIONNAIRE = "Questionnaire",
     QUESTIONNAIRE_PACKAGE = "QuestionnairePackage",
     QUESTIONNAIRE_RESPONSE = "QuestionnaireResponse",
-    EXPLANATION_OF_BENEFIT = "ExplanationOfBenefit"
+    EXPLANATION_OF_BENEFIT = "ExplanationOfBenefit",
+    COMMUNICATION_REQUEST = "CommunicationRequest"
 }
 
 # Holds information for OAuth2 authentication.

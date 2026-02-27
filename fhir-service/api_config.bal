@@ -328,6 +328,22 @@ final r4:ResourceAPIConfig ClaimApiConfig = {
                     min: 0
                 }
             ]
+        },
+        {
+            name: "submit-attachment",
+            active: true,
+            parameters: [
+                {
+                    name: "attachment",
+                    active: true,
+                    min: 1
+                },
+                {
+                    name: "trackingId",
+                    active: true,
+                    min: 1
+                }
+            ]
         }
 
     ],
@@ -1041,6 +1057,25 @@ final r4:ResourceAPIConfig subscriptionApiConfig = {
         }
     ],
     operations: [],
+    serverConfig: (),
+    authzConfig: ()
+};
+
+# ######################################################################################################################
+# Communication Request API Configs                                                                                            #
+# ######################################################################################################################
+
+final r4:ResourceAPIConfig communicationRequestApiConfig = {
+    resourceType: "CommunicationRequest",
+    profiles: [
+        "http://hl7.org/fhir/us/davinci-pas/StructureDefinition/profile-communicationrequest"
+    ],
+    defaultProfile: (),
+    searchParameters: [
+    ],
+    operations: [
+
+    ],
     serverConfig: (),
     authzConfig: ()
 };
